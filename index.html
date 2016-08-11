@@ -7,21 +7,28 @@
   </head>
   <body>
     <div class="container">
-      <h1>Small Animals</h1>
-      <div id="turtles">
-        <h2>Turtles</h2>
-        <img src="turtle.jpg">
-      </div>
-
-      <div id="snakes">
-        <h2>Snakes</h2>
-      </div>
-
-      <div id="insects">
-        <h2>Insects</h2>
-      </div>
-
-      </div>
+      <h2>Pick an Animal to Learn About</h2>
+      <form>
+        <div class="radio">
+          <label>
+            <input type="radio" name="animal" value="turtle" checked>
+            Turtle
+          </label>
+            </div>
+            <div class="radio">
+            <label>
+              <input type="radio" name="animal" value="snake">
+              Snake
+          </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="animal" value="insect">
+              insect
+            </label>
+          </div>
+          <button type="submit" class="btn">Learn!!</button>
+      </form>
     </div>
   <script src="js/jquery-1.10.2.js"></script>
   <script src="js/scripts.js"></script>
